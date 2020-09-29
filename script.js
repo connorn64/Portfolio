@@ -1,6 +1,7 @@
 // Selectors
 const sideBar = document.querySelector(".sidebar");
-const menuBtn = document.querySelector(".fa-angle-double-left");
+const openBtn = document.querySelector(".open-btn");
+const closeBtn = document.querySelector(".close-btn");
 const menuContainer = document.querySelector(".menu-container");
 
 function closeMenu () {
@@ -8,9 +9,9 @@ function closeMenu () {
 }
 
 function openMenu () {
-    sideBar.style.width="25%";
-    menuContainer.style.width="27%";
+    sideBar.style.width="20%";
 }
 
 // Event Listeners
-menuBtn.addEventListener('click', openMenu);
+openBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
