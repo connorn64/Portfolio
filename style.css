@@ -67,45 +67,38 @@ i {
     z-index: 1;
 }
 
-.nav-links {
-    text-align: center;
+.close-btn i {
+    margin: 1rem;
+    font-size: 1.4rem;
 }
 
-.nav-links .close-btn{
+.nav-links span {
+    padding: 6rem;
     display: flex;
-    margin: 1rem;
+    justify-content: center;
 }
 
 .nav-links a {
-    display: block;
+    font-size: 1.2rem;
     color: whitesmoke;
-    font-size: 1.2rem;;
-    margin: 6rem 1rem;
-    text-decoration: none;
-    transition: 0.2s ease;
+}
+
+.sm-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 5rem;;
 }
 
 .sm-list {
-    background: crimson;
-    width: 80%;
-    margin: 0 auto;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
 }
 
 .sm-list i {
-    font-size: 2.5rem;
-    transition: 0.2s ease;
+    font-size: 3rem;
+    cursor: pointer;
 }
 
 /*  hover effects */
-
-.nav-links a:hover {
-    font-size: 1.3rem;
-    color: #907bc9;
-}
-
-.sm-list i:hover {
-    font-size: 2.7rem;
-    color: #907bc9;
-} */
