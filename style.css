@@ -67,7 +67,9 @@ i {
     z-index: 1;
 }
 
-.close-btn i {
+.close-btn {
+    cursor: pointer;
+    color: whitesmoke;
     margin: 1rem;
     font-size: 1.4rem;
 }
@@ -76,6 +78,7 @@ i {
     padding: 6rem;
     display: flex;
     justify-content: center;
+    height: 0.5rem;
 }
 
 .nav-links a {
@@ -87,18 +90,37 @@ i {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 2rem 5rem;;
+    padding: 2rem;
+    text-align: center;
 }
 
 .sm-list {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .sm-list i {
     font-size: 3rem;
     cursor: pointer;
+    margin: 0 1.2rem;
+    width: 3rem;
 }
 
 /*  hover effects */
+
+.close-btn:hover {
+    color: #f00;
+    transition: 0.3s ease;
+}
+
+span a:hover {
+    color: #907bc9;
+    transition: 0.2s ease;  
+    font-size: 1.4rem;
+}
+
+.sm-list i:hover {
+    color: #907bc9;
+    transition: 0.2s ease; 
+    font-size: 3.5rem;
+}
