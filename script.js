@@ -4,6 +4,7 @@ const openBtn = document.querySelector(".open-btn");
 const closeBtn = document.querySelector(".close-btn");
 const menuContainer = document.querySelector(".menu-container");
 
+// Sidebar Menu
 function closeMenu () {
     sideBar.style.width="0%";
 }
