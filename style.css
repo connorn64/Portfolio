@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
     background-size: cover; */
     background: url("https://wallpaperaccess.com/full/432453.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 /* Navigation */
@@ -45,15 +45,10 @@ i {
 }
 
 .fa-gamepad {
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
     color: #f60d42;
-}
-
-.logo-container h6 {
-    font-size: 1rem;
-    letter-spacing: 2px;
-    color: #40454a;
+    text-shadow: #000 -3px -2px 1px;
 }
 
 .open-btn {
@@ -158,10 +153,36 @@ span a:hover {
     font-size: 2.5em;
     letter-spacing: 3px;
     color: #545863;
+    text-shadow: #000 4px 4px 6px;
 }
 
 .intro-title {
     font-size: 1em;
-    margin-top: 1em;
+    margin-top: 3em;
     color: #ffa022;
+    text-shadow: #000 2px 2px 3px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 60vh;
+}
+
+.cta-btn button {
+    border: none;
+    height: auto;
+    width: 18rem;
+    background: none;
+    color: #f70d44;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    outline: none;
+    text-shadow: #000 2px 2px 3px;
+}
+
+.cta-btn i {
+    font-size: 1.8rem;
 }
