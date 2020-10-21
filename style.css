@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
@@ -7,12 +8,12 @@
 }
 
 body {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23000000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23545454' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23120e17' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23605c6a' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%231d1727' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%236d6481' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23271f38' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23796b98' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2332274a' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238473b0' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233d2f5c' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23907bc9' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover;
-    /* background: url("./Images/background.jpg");
     background-size: cover; */
+    background: url("https://wallpaperaccess.com/full/432453.jpg");
+    background-size: auto;
 }
 
 /* Navigation */
@@ -26,7 +27,6 @@ nav {
     align-items: center;
     width: 100%;
     height: 8vh;
-    background: #232b2b;
 }
 
 a {
@@ -47,24 +47,24 @@ i {
 .fa-gamepad {
     font-size: 2.5rem;
     cursor: pointer;
-    color: #907bc9;
+    color: #f60d42;
 }
 
 .logo-container h6 {
     font-size: 1rem;
     letter-spacing: 2px;
-    color: whitesmoke;
+    color: #40454a;
 }
 
 .open-btn {
     cursor: pointer;
     margin-right: 5%;
-    color: whitesmoke;
+    color: #40454a;
 }
 /* Sidebar Nav */
 
 .sidebar {
-    background: #232b2b;
+    background: #0083cb;
     position: fixed;
     top: 0;
     right: 0;
@@ -122,13 +122,14 @@ i {
 }
 
 span a:hover {
-    color: #907bc9;
+    color: #81ca3b;
     transition: 0.2s ease;  
     font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .sm-list i:hover {
-    color: #907bc9;
+    color: #ffa022;
     transition: 0.2s ease; 
     font-size: 3.5rem;
 }
@@ -136,23 +137,31 @@ span a:hover {
 /* Landing */
 
 .landing {
-    display: flex;
-    align-items: center;
+    min-height: 30vh;
     width: 90%;
     margin: auto;
-    height: 80vh;
-}
-
-.avatar {
-    height: 60%;
-    flex: 1;
-}
-
-.avatar img {
-    height: 100%;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .intro {
-    flex: 1;
+    margin: auto;
+}
+
+.intro-name, .intro-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.intro-name {
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    color: #545863;
+}
+
+.intro-title {
+    font-size: 1em;
+    margin-top: 1em;
+    color: #ffa022;
 }
